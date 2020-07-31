@@ -10,7 +10,7 @@ import org.junit.Assert;
 
 import java.io.IOException;
 
-public class Tests {
+public class Tests throws IOException{
 
     init.getDriver().navigate().to("https://geekbrains.ru/");
 
